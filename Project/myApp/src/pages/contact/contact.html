@@ -1,0 +1,11 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Contacts
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <user-contact *ngFor="let user of users" [user]="user"></user-contact>
+</ion-content>

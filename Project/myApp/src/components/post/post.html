@@ -1,0 +1,37 @@
+<ion-card>
+
+  <ion-item>
+    <ion-avatar item-start>
+      <img src="https://images.pexels.com/photos/324658/pexels-photo-324658.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb">
+    </ion-avatar>
+    <h2>{{post.title}}</h2>
+    <p>November 5, 1955</p>
+  </ion-item>
+
+  <img src="https://images.pexels.com/photos/62623/wing-plane-flying-airplane-62623.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb">
+
+  <ion-card-content>
+    <p>{{post.description}}</p>
+  </ion-card-content>
+
+  <ion-row>
+    <ion-col>
+      <button ion-button icon-left clear small>
+        <ion-icon name="thumbs-up"></ion-icon>
+        <div>{{post.likes_count}} Likes</div>
+      </button>
+    </ion-col>
+    <ion-col>
+      <button ion-button icon-left clear small>
+        <ion-icon name="text"></ion-icon>
+        <div>{{post.likes_count}} Comments</div>
+      </button>
+    </ion-col>
+    <ion-col center text-center>
+      <ion-note>
+        11h ago
+      </ion-note>
+    </ion-col>
+  </ion-row>
+
+</ion-card>

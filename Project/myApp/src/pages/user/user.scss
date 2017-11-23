@@ -1,0 +1,35 @@
+page-user {
+
+    .cover_photo{
+        background-color: #fff;
+    }
+
+    .cover_photo > img{
+        opacity: 0.6;
+    }
+
+    ion-item.item-ios{
+        background-color: transparent!important;
+        height: 120px;
+        margin-top: -50px;
+    }
+
+    ion-avatar{
+        height: 100px;
+        width: 100px;        
+    }
+
+    ion-avatar > img{
+        -webkit-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.5);
+        -moz-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.5);
+        box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.5);   
+        height: 100px!important;
+        width: 100px!important;      
+    }
+
+    .content_name_user{
+        margin-top: 45px;
+    }
+
+        
+}
