@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
 import { ContactPage } from './contact';
-import { UserService } from '../user/user.service';
 import { UserContactComponent } from '../../components/user-contact/user-contact';
 
 @NgModule({

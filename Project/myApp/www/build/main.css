@@ -25678,6 +25678,28 @@ ion-navbar.toolbar {
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
 
+user-contact ion-thumbnail > img {
+  border-radius: 100%;
+}
+
+user-page ion-item > div.item-inner {
+  display: none !important;
+}
+
+user-page ion-avatar {
+  margin: 0px auto !important;
+  padding: 0px !important;
+}
+
+user-page .item-ios, user-page .item-md {
+  padding: 0px !important;
+}
+
+user-page .user_info {
+  text-align: center;
+  text-transform: capitalize;
+}
+
 page-user .cover_photo {
   background-color: #fff;
 }
@@ -25686,22 +25708,22 @@ page-user .cover_photo > img {
   opacity: 0.6;
 }
 
-page-user ion-item.item-ios {
+page-user ion-item.item-ios, page-user .item-md {
   background-color: transparent !important;
-  height: 120px;
+  height: 130px;
   margin-top: -50px;
 }
 
 page-user ion-avatar {
-  height: 100px;
-  width: 100px;
+  height: 120px;
+  width: 120px;
 }
 
 page-user ion-avatar > img {
   -webkit-box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.5);
   box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.5);
-  height: 100px !important;
-  width: 100px !important;
+  height: 120px !important;
+  width: 120px !important;
 }
 
 page-user .content_name_user {

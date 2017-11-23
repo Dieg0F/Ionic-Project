@@ -3,16 +3,16 @@
     <img src="https://images.pexels.com/photos/371649/pexels-photo-371649.jpeg?w=1800&h=750&auto=compress&cs=tinysrgb" />
   </div>
   <ion-item>
-    <ion-avatar item-start text-center>
+    <ion-avatar item-start>
       <img src="https://images.pexels.com/photos/295821/pexels-photo-295821.jpeg?w=1260&h=1300&auto=compress&cs=tinysrgb">
-    </ion-avatar>      
+    </ion-avatar>
   </ion-item>
   <ion-card-content>
-    <ion-card-title>
-      {{user.name}}
-    </ion-card-title>
-    <p>
-      {{user.bio}}
-    </p>
+    <div class="user_info" id="id">
+      <ion-card-title>
+        <h2>{{user?.name}}</h2>
+      </ion-card-title>
+      <p>{{user?.bio}}</p>
+    </div>
   </ion-card-content>
 </ion-card>

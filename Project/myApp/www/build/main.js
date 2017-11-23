@@ -323,7 +323,7 @@ var UserPage = (function () {
     ], UserPage.prototype, "posts", void 0);
     UserPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-user',template:/*ion-inline-start:"C:\Users\diegof\Desktop\Ionic\myApp\src\pages\user\user.html"*/'<!--\n  Generated template for the UserPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>user</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <user-page [user]="user"></user-page>\n\n</ion-content>'/*ion-inline-end:"C:\Users\diegof\Desktop\Ionic\myApp\src\pages\user\user.html"*/,
+            selector: 'page-user',template:/*ion-inline-start:"C:\Users\diegof\Desktop\Ionic\myApp\src\pages\user\user.html"*/'<!--\n  Generated template for the UserPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Welcome</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <user-page [user]="user"></user-page>\n\n</ion-content>'/*ion-inline-end:"C:\Users\diegof\Desktop\Ionic\myApp\src\pages\user\user.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */],
             __WEBPACK_IMPORTED_MODULE_3__user_service__["a" /* UserService */]])
@@ -548,7 +548,7 @@ var UserContactComponent = (function () {
     ], UserContactComponent.prototype, "user", void 0);
     UserContactComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'user-contact',template:/*ion-inline-start:"C:\Users\diegof\Desktop\Ionic\myApp\src\components\user-contact\user-contact.html"*/'<ion-list>\n  <ion-item>\n    <ion-thumbnail item-start>\n      <img src="img/thumbnail-totoro.png">\n    </ion-thumbnail>\n    <h2>{{user.name}}</h2>\n    <p>{{user.bio}}</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n</ion-list>'/*ion-inline-end:"C:\Users\diegof\Desktop\Ionic\myApp\src\components\user-contact\user-contact.html"*/
+            selector: 'user-contact',template:/*ion-inline-start:"C:\Users\diegof\Desktop\Ionic\myApp\src\components\user-contact\user-contact.html"*/'<ion-list>\n  <ion-item>\n    <ion-thumbnail item-start>\n      <img src="https://images.pexels.com/photos/295821/pexels-photo-295821.jpeg?w=1260&h=1300&auto=compress&cs=tinysrgb">\n    </ion-thumbnail>\n    <h2>{{user?.name}}</h2>\n    <p>{{user?.bio}}</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n</ion-list>'/*ion-inline-end:"C:\Users\diegof\Desktop\Ionic\myApp\src\components\user-contact\user-contact.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], UserContactComponent);
@@ -652,7 +652,7 @@ var UserPageComponent = (function () {
     ], UserPageComponent.prototype, "user", void 0);
     UserPageComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'user-page',template:/*ion-inline-start:"C:\Users\diegof\Desktop\Ionic\myApp\src\components\user-page\user-page.html"*/'<ion-card>\n  <div class="cover_photo">\n    <img src="https://images.pexels.com/photos/371649/pexels-photo-371649.jpeg?w=1800&h=750&auto=compress&cs=tinysrgb" />\n  </div>\n  <ion-item>\n    <ion-avatar item-start text-center>\n      <img src="https://images.pexels.com/photos/295821/pexels-photo-295821.jpeg?w=1260&h=1300&auto=compress&cs=tinysrgb">\n    </ion-avatar>      \n  </ion-item>\n  <ion-card-content>\n    <ion-card-title>\n      {{user.name}}\n    </ion-card-title>\n    <p>\n      {{user.bio}}\n    </p>\n  </ion-card-content>\n</ion-card>'/*ion-inline-end:"C:\Users\diegof\Desktop\Ionic\myApp\src\components\user-page\user-page.html"*/
+            selector: 'user-page',template:/*ion-inline-start:"C:\Users\diegof\Desktop\Ionic\myApp\src\components\user-page\user-page.html"*/'<ion-card>\n  <div class="cover_photo">\n    <img src="https://images.pexels.com/photos/371649/pexels-photo-371649.jpeg?w=1800&h=750&auto=compress&cs=tinysrgb" />\n  </div>\n  <ion-item>\n    <ion-avatar item-start>\n      <img src="https://images.pexels.com/photos/295821/pexels-photo-295821.jpeg?w=1260&h=1300&auto=compress&cs=tinysrgb">\n    </ion-avatar>\n  </ion-item>\n  <ion-card-content>\n    <div class="user_info" id="id">\n      <ion-card-title>\n        <h2>{{user?.name}}</h2>\n      </ion-card-title>\n      <p>{{user?.bio}}</p>\n    </div>\n  </ion-card-content>\n</ion-card>'/*ion-inline-end:"C:\Users\diegof\Desktop\Ionic\myApp\src\components\user-page\user-page.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], UserPageComponent);

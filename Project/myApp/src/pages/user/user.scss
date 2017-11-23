@@ -8,23 +8,23 @@ page-user {
         opacity: 0.6;
     }
 
-    ion-item.item-ios{
+    ion-item.item-ios, ion-item.item-md{
         background-color: transparent!important;
-        height: 120px;
+        height: 130px;
         margin-top: -50px;
     }
 
     ion-avatar{
-        height: 100px;
-        width: 100px;        
+        height: 120px;
+        width: 120px;        
     }
 
     ion-avatar > img{
         -webkit-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.5);
         -moz-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.5);
         box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.5);   
-        height: 100px!important;
-        width: 100px!important;      
+        height: 120px!important;
+        width: 120px!important;      
     }
 
     .content_name_user{
