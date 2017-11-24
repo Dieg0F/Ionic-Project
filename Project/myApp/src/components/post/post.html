@@ -11,20 +11,20 @@
   <img [src]="post?.image_url">
 
   <ion-card-content>
-    <p>{{post.description}}</p>
+    <p>{{post?.description}}</p>
   </ion-card-content>
 
   <ion-row>
     <ion-col>
       <button ion-button icon-left clear small>
         <ion-icon name="thumbs-up"></ion-icon>
-        <div>{{post.likes_count}} Likes</div>
+        <div>{{post?.likes_count}} Likes</div>
       </button>
     </ion-col>
     <ion-col>
       <button ion-button icon-left clear small>
         <ion-icon name="text"></ion-icon>
-        <div>{{post.likes_count}} Comments</div>
+        <div>{{post?.likes_count}} Comments</div>
       </button>
     </ion-col>
   </ion-row>

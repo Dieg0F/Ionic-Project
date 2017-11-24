@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
-import { AboutPage } from '../pages/about/about';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 
@@ -15,13 +14,15 @@ import { ContactPageModule } from '../pages/contact/contact.module';
 import { UserPageModule } from '../pages/user/user.module';
 import { UserService } from '../pages/user/user.service';
 import { HttpModule } from '@angular/http';
+import { PostComponent } from '../components/post/post';
+import { UserPageComponent } from '../components/user-page/user-page';
 
 @NgModule({
   declarations: [
     MyApp,
-    AboutPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    PostComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +36,8 @@ import { HttpModule } from '@angular/http';
   entryComponents: [
     MyApp,
     HomePage,
-    TabsPage
+    TabsPage,
+    PostComponent
   ],
   providers: [
     StatusBar,
