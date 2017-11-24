@@ -1,5 +1,7 @@
-import { Component , Input} from '@angular/core';
+import { Component , Input, OnInit} from '@angular/core';
 import { Post } from './post.modal';
+import { UserService } from '../../pages/user/user.service';
+import { User } from '../../pages/user/user.modal';
 
 /**
  * Generated class for the PostComponent component.
@@ -11,12 +13,18 @@ import { Post } from './post.modal';
   selector: 'post',
   templateUrl: 'post.html'
 })
-export class PostComponent {
+export class PostComponent implements OnInit{  
 
   @Input() post: Post
+  @Input() user: User
 
-  constructor() {    
+  constructor(private userService: UserService) {    
     
   }
 
+  ngOnInit() {
+    this.userService.getUserById(this.post.user_id)
+    .subscribe(user => this.user = user)
+  }
+  
 }

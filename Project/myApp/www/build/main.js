@@ -95,7 +95,7 @@ var ContactPageModule = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContactPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__user_user_service__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__user_user_service__ = __webpack_require__(40);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -125,7 +125,7 @@ var ContactPage = (function () {
     ], ContactPage.prototype, "users", void 0);
     ContactPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-contact',template:/*ion-inline-start:"C:\Users\diegof\Desktop\Ionic\myApp\src\pages\contact\contact.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Contacts\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n    <user-contact *ngFor="let user of users" [user]="user"></user-contact>\n</ion-content>\n'/*ion-inline-end:"C:\Users\diegof\Desktop\Ionic\myApp\src\pages\contact\contact.html"*/
+            selector: 'page-contact',template:/*ion-inline-start:"C:\Users\Diego Fraga\Documents\Ionic-Project\Project\myApp\src\pages\contact\contact.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      Contacts\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n    <user-contact *ngFor="let user of users" [user]="user"></user-contact>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Diego Fraga\Documents\Ionic-Project\Project\myApp\src\pages\contact\contact.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */],
             __WEBPACK_IMPORTED_MODULE_2__user_user_service__["a" /* UserService */]])
@@ -185,7 +185,7 @@ var FeedPageModule = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FeedPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__user_user_service__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__user_user_service__ = __webpack_require__(40);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -221,7 +221,7 @@ var FeedPage = (function () {
     ], FeedPage.prototype, "posts", void 0);
     FeedPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-feed',template:/*ion-inline-start:"C:\Users\diegof\Desktop\Ionic\myApp\src\pages\feed\feed.html"*/'<!--\n  Generated template for the FeedPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Feed</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n    <post *ngFor="let post of posts" [post]="post"></post>\n</ion-content>'/*ion-inline-end:"C:\Users\diegof\Desktop\Ionic\myApp\src\pages\feed\feed.html"*/,
+            selector: 'page-feed',template:/*ion-inline-start:"C:\Users\Diego Fraga\Documents\Ionic-Project\Project\myApp\src\pages\feed\feed.html"*/'<!--\n\n  Generated template for the FeedPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Feed</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <post *ngFor="let post of posts" [post]="post"></post>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Diego Fraga\Documents\Ionic-Project\Project\myApp\src\pages\feed\feed.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */],
             __WEBPACK_IMPORTED_MODULE_2__user_user_service__["a" /* UserService */]])
@@ -281,8 +281,8 @@ var UserPageModule = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UserPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__user_modal__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__user_service__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__user_modal__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__user_service__ = __webpack_require__(40);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -323,7 +323,7 @@ var UserPage = (function () {
     ], UserPage.prototype, "posts", void 0);
     UserPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-user',template:/*ion-inline-start:"C:\Users\diegof\Desktop\Ionic\myApp\src\pages\user\user.html"*/'<!--\n  Generated template for the UserPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Welcome</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <user-page [user]="user"></user-page>\n\n</ion-content>'/*ion-inline-end:"C:\Users\diegof\Desktop\Ionic\myApp\src\pages\user\user.html"*/,
+            selector: 'page-user',template:/*ion-inline-start:"C:\Users\Diego Fraga\Documents\Ionic-Project\Project\myApp\src\pages\user\user.html"*/'<!--\n\n  Generated template for the UserPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>\n\n      Welcome {{user?.name}}\n\n    </ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n  <user-page [user]="user"></user-page>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\Diego Fraga\Documents\Ionic-Project\Project\myApp\src\pages\user\user.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */],
             __WEBPACK_IMPORTED_MODULE_3__user_service__["a" /* UserService */]])
@@ -364,7 +364,7 @@ var TabsPage = (function () {
         this.tab4Root = __WEBPACK_IMPORTED_MODULE_2__feed_feed__["a" /* FeedPage */];
     }
     TabsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\diegof\Desktop\Ionic\myApp\src\pages\tabs\tabs.html"*/'<ion-tabs>\n  <ion-tab [root]="tab1Root" tabTitle="User" tabIcon="contact"></ion-tab>\n  <ion-tab [root]="tab3Root" tabTitle="Contact" tabIcon="contacts"></ion-tab>\n  <ion-tab [root]="tab4Root" tabTitle="Feed" tabIcon="list-box"></ion-tab>\n</ion-tabs>\n'/*ion-inline-end:"C:\Users\diegof\Desktop\Ionic\myApp\src\pages\tabs\tabs.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Diego Fraga\Documents\Ionic-Project\Project\myApp\src\pages\tabs\tabs.html"*/'<ion-tabs>\n\n  <ion-tab [root]="tab1Root" tabTitle="User" tabIcon="contact"></ion-tab>\n\n  <ion-tab [root]="tab3Root" tabTitle="Contact" tabIcon="contacts"></ion-tab>\n\n  <ion-tab [root]="tab4Root" tabTitle="Feed" tabIcon="list-box"></ion-tab>\n\n</ion-tabs>\n\n'/*ion-inline-end:"C:\Users\Diego Fraga\Documents\Ionic-Project\Project\myApp\src\pages\tabs\tabs.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], TabsPage);
@@ -406,8 +406,8 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_feed_feed_module__ = __webpack_require__(157);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_contact_contact_module__ = __webpack_require__(155);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_user_user_module__ = __webpack_require__(159);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_user_user_service__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__angular_http__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_user_user_service__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__angular_http__ = __webpack_require__(79);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -489,7 +489,7 @@ var REST_API = "http://localhost:3000";
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ErrorHandler; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_http__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_http__ = __webpack_require__(79);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
 
@@ -521,7 +521,7 @@ var ErrorHandler = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UserContactComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__pages_user_user_modal__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__pages_user_user_modal__ = __webpack_require__(49);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -548,7 +548,7 @@ var UserContactComponent = (function () {
     ], UserContactComponent.prototype, "user", void 0);
     UserContactComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'user-contact',template:/*ion-inline-start:"C:\Users\diegof\Desktop\Ionic\myApp\src\components\user-contact\user-contact.html"*/'<ion-list>\n  <ion-item>\n    <ion-thumbnail item-start>\n      <img src="https://images.pexels.com/photos/295821/pexels-photo-295821.jpeg?w=1260&h=1300&auto=compress&cs=tinysrgb">\n    </ion-thumbnail>\n    <h2>{{user?.name}}</h2>\n    <p>{{user?.bio}}</p>\n    <button ion-button clear item-end>View</button>\n  </ion-item>\n</ion-list>'/*ion-inline-end:"C:\Users\diegof\Desktop\Ionic\myApp\src\components\user-contact\user-contact.html"*/
+            selector: 'user-contact',template:/*ion-inline-start:"C:\Users\Diego Fraga\Documents\Ionic-Project\Project\myApp\src\components\user-contact\user-contact.html"*/'<ion-list>\n\n  <ion-item>\n\n    <ion-thumbnail item-start>\n\n      <img [src]="user?.profile_photo_url">\n\n    </ion-thumbnail>\n\n    <h2>{{user?.name}}</h2>\n\n    <p>{{user?.bio}}</p>\n\n    <button ion-button clear item-end>View</button>\n\n  </ion-item>\n\n</ion-list>'/*ion-inline-end:"C:\Users\Diego Fraga\Documents\Ionic-Project\Project\myApp\src\components\user-contact\user-contact.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], UserContactComponent);
@@ -566,6 +566,8 @@ var UserContactComponent = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PostComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__post_modal__ = __webpack_require__(265);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_user_user_service__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages_user_user_modal__ = __webpack_require__(49);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -577,6 +579,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
+
+
 /**
  * Generated class for the PostComponent component.
  *
@@ -584,17 +588,27 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Components.
  */
 var PostComponent = (function () {
-    function PostComponent() {
+    function PostComponent(userService) {
+        this.userService = userService;
     }
+    PostComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.userService.getUserById(this.post.user_id)
+            .subscribe(function (user) { return _this.user = user; });
+    };
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* Input */])(),
         __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1__post_modal__["a" /* Post */])
     ], PostComponent.prototype, "post", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* Input */])(),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_3__pages_user_user_modal__["a" /* User */])
+    ], PostComponent.prototype, "user", void 0);
     PostComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'post',template:/*ion-inline-start:"C:\Users\diegof\Desktop\Ionic\myApp\src\components\post\post.html"*/'<ion-card>\n\n  <ion-item>\n    <ion-avatar item-start>\n      <img src="https://images.pexels.com/photos/324658/pexels-photo-324658.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb">\n    </ion-avatar>\n    <h2>{{post.title}}</h2>\n    <p>November 5, 1955</p>\n  </ion-item>\n\n  <img src="https://images.pexels.com/photos/62623/wing-plane-flying-airplane-62623.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb">\n\n  <ion-card-content>\n    <p>{{post.description}}</p>\n  </ion-card-content>\n\n  <ion-row>\n    <ion-col>\n      <button ion-button icon-left clear small>\n        <ion-icon name="thumbs-up"></ion-icon>\n        <div>{{post.likes_count}} Likes</div>\n      </button>\n    </ion-col>\n    <ion-col>\n      <button ion-button icon-left clear small>\n        <ion-icon name="text"></ion-icon>\n        <div>{{post.likes_count}} Comments</div>\n      </button>\n    </ion-col>\n    <ion-col center text-center>\n      <ion-note>\n        11h ago\n      </ion-note>\n    </ion-col>\n  </ion-row>\n\n</ion-card>'/*ion-inline-end:"C:\Users\diegof\Desktop\Ionic\myApp\src\components\post\post.html"*/
+            selector: 'post',template:/*ion-inline-start:"C:\Users\Diego Fraga\Documents\Ionic-Project\Project\myApp\src\components\post\post.html"*/'<ion-card>\n\n\n\n  <ion-item>\n\n    <ion-avatar item-start>\n\n      <img [src]="user?.profile_photo_url">\n\n    </ion-avatar>\n\n    <h2>{{user?.name}}</h2>\n\n    <p>November 5, 1955</p>\n\n  </ion-item>\n\n\n\n  <img [src]="post?.image_url">\n\n\n\n  <ion-card-content>\n\n    <p>{{post.description}}</p>\n\n  </ion-card-content>\n\n\n\n  <ion-row>\n\n    <ion-col>\n\n      <button ion-button icon-left clear small>\n\n        <ion-icon name="thumbs-up"></ion-icon>\n\n        <div>{{post.likes_count}} Likes</div>\n\n      </button>\n\n    </ion-col>\n\n    <ion-col>\n\n      <button ion-button icon-left clear small>\n\n        <ion-icon name="text"></ion-icon>\n\n        <div>{{post.likes_count}} Comments</div>\n\n      </button>\n\n    </ion-col>\n\n  </ion-row>\n\n\n\n</ion-card>'/*ion-inline-end:"C:\Users\Diego Fraga\Documents\Ionic-Project\Project\myApp\src\components\post\post.html"*/
         }),
-        __metadata("design:paramtypes", [])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__pages_user_user_service__["a" /* UserService */]])
     ], PostComponent);
     return PostComponent;
 }());
@@ -625,7 +639,7 @@ var Post = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UserPageComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__pages_user_user_modal__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__pages_user_user_modal__ = __webpack_require__(49);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -652,7 +666,7 @@ var UserPageComponent = (function () {
     ], UserPageComponent.prototype, "user", void 0);
     UserPageComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'user-page',template:/*ion-inline-start:"C:\Users\diegof\Desktop\Ionic\myApp\src\components\user-page\user-page.html"*/'<ion-card>\n  <div class="cover_photo">\n    <img src="https://images.pexels.com/photos/371649/pexels-photo-371649.jpeg?w=1800&h=750&auto=compress&cs=tinysrgb" />\n  </div>\n  <ion-item>\n    <ion-avatar item-start>\n      <img src="https://images.pexels.com/photos/295821/pexels-photo-295821.jpeg?w=1260&h=1300&auto=compress&cs=tinysrgb">\n    </ion-avatar>\n  </ion-item>\n  <ion-card-content>\n    <div class="user_info" id="id">\n      <ion-card-title>\n        <h2>{{user?.name}}</h2>\n      </ion-card-title>\n      <p>{{user?.bio}}</p>\n    </div>\n  </ion-card-content>\n</ion-card>'/*ion-inline-end:"C:\Users\diegof\Desktop\Ionic\myApp\src\components\user-page\user-page.html"*/
+            selector: 'user-page',template:/*ion-inline-start:"C:\Users\Diego Fraga\Documents\Ionic-Project\Project\myApp\src\components\user-page\user-page.html"*/'<ion-card>\n\n  <div class="cover_photo">\n\n    <img [src]="user?.profile_cover_url" />\n\n  </div>\n\n  <ion-item>\n\n    <ion-avatar item-start>\n\n      <img [src]="user?.profile_photo_url">\n\n    </ion-avatar>\n\n  </ion-item>\n\n  <ion-card-content>\n\n    <div class="user_info" id="id">\n\n      <ion-card-title>\n\n        <h2>{{user?.name}}</h2>\n\n      </ion-card-title>\n\n      <p>{{user?.bio}}</p>\n\n    </div>\n\n  </ion-card-content>\n\n</ion-card>'/*ion-inline-end:"C:\Users\Diego Fraga\Documents\Ionic-Project\Project\myApp\src\components\user-page\user-page.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], UserPageComponent);
@@ -698,7 +712,7 @@ var MyApp = (function () {
         });
     }
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\diegof\Desktop\Ionic\myApp\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"C:\Users\diegof\Desktop\Ionic\myApp\src\app\app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Diego Fraga\Documents\Ionic-Project\Project\myApp\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n\n'/*ion-inline-end:"C:\Users\Diego Fraga\Documents\Ionic-Project\Project\myApp\src\app\app.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
@@ -733,7 +747,7 @@ var AboutPage = (function () {
     }
     AboutPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-about',template:/*ion-inline-start:"C:\Users\diegof\Desktop\Ionic\myApp\src\pages\about\about.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      About\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\diegof\Desktop\Ionic\myApp\src\pages\about\about.html"*/
+            selector: 'page-about',template:/*ion-inline-start:"C:\Users\Diego Fraga\Documents\Ionic-Project\Project\myApp\src\pages\about\about.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      About\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Diego Fraga\Documents\Ionic-Project\Project\myApp\src\pages\about\about.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
     ], AboutPage);
@@ -768,7 +782,7 @@ var HomePage = (function () {
     }
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"C:\Users\diegof\Desktop\Ionic\myApp\src\pages\home\home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>My App</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h2>Welcome to My App!</h2>\n  <p>\n    This starter project comes with simple tabs-based layout for apps\n    that are going to primarily use a Tabbed UI.\n  </p>\n  <p>\n    Take a look at the <code>src/pages/</code> directory to add or change tabs,\n    update any existing page or create new pages.\n  </p>\n</ion-content>\n'/*ion-inline-end:"C:\Users\diegof\Desktop\Ionic\myApp\src\pages\home\home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"C:\Users\Diego Fraga\Documents\Ionic-Project\Project\myApp\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>My App</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n  <h2>Welcome to My App!</h2>\n\n  <p>\n\n    This starter project comes with simple tabs-based layout for apps\n\n    that are going to primarily use a Tabbed UI.\n\n  </p>\n\n  <p>\n\n    Take a look at the <code>src/pages/</code> directory to add or change tabs,\n\n    update any existing page or create new pages.\n\n  </p>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Diego Fraga\Documents\Ionic-Project\Project\myApp\src\pages\home\home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
     ], HomePage);
@@ -779,13 +793,13 @@ var HomePage = (function () {
 
 /***/ }),
 
-/***/ 48:
+/***/ 40:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UserService; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(79);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(254);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_filter__ = __webpack_require__(255);
@@ -849,7 +863,7 @@ var UserService = (function () {
 
 /***/ }),
 
-/***/ 79:
+/***/ 49:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

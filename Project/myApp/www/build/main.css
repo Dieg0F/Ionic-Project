@@ -25708,7 +25708,7 @@ page-user .cover_photo > img {
   opacity: 0.6;
 }
 
-page-user ion-item.item-ios, page-user .item-md {
+page-user ion-item.item-ios, page-user ion-item.item-md {
   background-color: transparent !important;
   height: 130px;
   margin-top: -50px;
