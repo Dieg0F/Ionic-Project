@@ -16,7 +16,8 @@
 
 
 <ion-content padding>
-
   <user-page [user]="user"></user-page>
-
+  <div *ngFor="let posts_id of user?.posts_id">
+    <user-feed [postId]="posts_id.id" [user]="user"></user-feed>
+  </div>  
 </ion-content>

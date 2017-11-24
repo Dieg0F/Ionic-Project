@@ -1,4 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Post } from '../post/post.modal';
+import { UserService } from '../../pages/user/user.service';
+import { User } from '../../pages/user/user.modal';
 
 /**
  * Generated class for the UserFeedComponent component.
@@ -12,11 +15,15 @@ import { Component } from '@angular/core';
 })
 export class UserFeedComponent {
 
-  text: string;
+  @Input() postId: number  
+  @Input() post: Post
+  @Input() user: User
 
-  constructor() {
-    console.log('Hello UserFeedComponent Component');
-    this.text = 'Hello World';
+  constructor(private userService: UserService) {        
   }
 
+  ngOnInit() {    
+    this.userService.getPostById(this.postId)
+    .subscribe(user => this.post = user)
+  }
 }

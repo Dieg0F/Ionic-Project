@@ -5,7 +5,8 @@ import { PostComponent } from '../../components/post/post';
 
 @NgModule({
   declarations: [
-    FeedPage
+    FeedPage,
+    PostComponent
   ],
   imports: [
     IonicPageModule.forChild(FeedPage)        

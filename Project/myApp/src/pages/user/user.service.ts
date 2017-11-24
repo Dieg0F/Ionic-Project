@@ -10,6 +10,7 @@ import { User } from './user.modal';
 import { REST_API } from '../../app/app.api';
 import { ErrorHandler } from '../../app/app.error-handler';
 import { Post } from '../../components/post/post.modal';
+import { filter } from 'rxjs/operator/filter';
 
 @Injectable()
 export class UserService{
@@ -35,12 +36,33 @@ export class UserService{
         .catch(ErrorHandler.handlerError)
     }
 
-    postsByUser(id: number): Observable< Post[] >
-    {
-        return this.http.get(`${REST_API}/posts/`)
-        .map(response => response.json())
-        .filter(user => user.user_id === id)
-        .catch(ErrorHandler.handlerError)
+    postsByUser(id: number): Post[]
+    {        
+        let posts: Observable< Post[]>
+        let user_posts : Post[]
+        let post_result: Post[]
+
+        posts = this.http.get(`${REST_API}/posts/`)
+        .map(response => response.json())         
+        .catch(ErrorHandler.handlerError)                  
+
+        posts .subscribe(posts => user_posts = posts)
+
+        for(let i in user_posts)
+        {
+            if(user_posts[i].user_id = id)    
+            {
+                user_posts.splice(parseInt(i), 1)
+            }
+        }  
+        return user_posts
+    }
+
+    getPostById(id: number): Observable< Post >
+    {                                 
+        return this.http.get(`${REST_API}/posts/${id}`)
+        .map(response => response.json())         
+        .catch(ErrorHandler.handlerError)  
     }
 
     //retorna todos os posts da db

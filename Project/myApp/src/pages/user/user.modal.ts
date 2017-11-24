@@ -8,4 +8,5 @@ export class User{
     profile_photo_url: string
     profile_cover_url: string
     bio: string
+    posts_id: number[]
 }

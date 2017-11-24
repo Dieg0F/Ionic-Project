@@ -14,15 +14,12 @@ import { ContactPageModule } from '../pages/contact/contact.module';
 import { UserPageModule } from '../pages/user/user.module';
 import { UserService } from '../pages/user/user.service';
 import { HttpModule } from '@angular/http';
-import { PostComponent } from '../components/post/post';
-import { UserPageComponent } from '../components/user-page/user-page';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    TabsPage,
-    PostComponent
+    TabsPage    
   ],
   imports: [
     BrowserModule,
@@ -36,8 +33,7 @@ import { UserPageComponent } from '../components/user-page/user-page';
   entryComponents: [
     MyApp,
     HomePage,
-    TabsPage,
-    PostComponent
+    TabsPage    
   ],
   providers: [
     StatusBar,

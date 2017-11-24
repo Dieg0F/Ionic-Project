@@ -4,6 +4,11 @@ import { User } from './user.modal';
 import { UserService } from './user.service';
 import { Post } from '../../components/post/post.modal';
 
+import { Observable } from 'rxjs/Observable';
+import  'rxjs/add/operator/map';
+import  'rxjs/add/operator/filter';
+import  'rxjs/add/operator/catch';
+
 /**
  * Generated class for the UserPage page.
  *
@@ -19,7 +24,6 @@ import { Post } from '../../components/post/post.modal';
 export class UserPage implements OnInit{
 
   @Input() user: User
-  @Input() posts: Post[]
 
   constructor(public navCtrl: NavController, public navParams: NavParams,
   private userService: UserService) {
@@ -27,8 +31,8 @@ export class UserPage implements OnInit{
   }
 
   ngOnInit() {
-    this.userService.getUserById(49)
+    this.userService.getUserById(100)
     .subscribe(user => this.user = user)
   }
-
+  
 }
